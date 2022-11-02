@@ -5,8 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <!-- css preload -->
+     <link rel="preload" href="css/style.css" as="style">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/normalize.css">
+     <!-- css del bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Roboto:wght@300;400;700&display=swap"
+         rel="stylesheet">
+     <!-- kit de fontawesome -->
+     <script src="https://kit.fontawesome.com/952509c1de.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+        <!-- etiqueta de encabezado interno -->
+        <header>
+            <div class="container">
+            <!-- logo con enlace a la pagina inicial index-->
+                <a href="index.html"><img src="img/Logo Carlos Peña.png" alt="logo"></a>
+                <!-- Menú de navegación con etiqueta nav -->
+                <nav>
+                    <!-- Enlaces ancla de menú -->
+                    <a href="#home" class="btn btn-warning">Home</a>
+                    <a href="#yosoy">Yo soy</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#contacto">Contacto</a>
+                    <!-- Enlace interno -->
+                    <a href="cotizar.html">Cotizar</a>
+                    <!-- Enlaces externos -->
+                    <a href="https://librerianacional.com/" target="_blank" rel="noopener noreferrer">Librería Nacional</a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"> <i class="fab fa-facebook-f"></i></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=573193418279&text=Hola" target="_blank" rel="noopener noreferrer"> <i class="fab fa-whatsapp"></i></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"> <i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com//" target="_blank" rel="noopener noreferrer"> <i class="fab fa-youtube"></i></a>
+                </nav>
+            </div>
+        </header>
 </body>
 </html>
